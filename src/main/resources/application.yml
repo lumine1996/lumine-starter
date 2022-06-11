@@ -1,0 +1,11 @@
+server:
+  port: 8500
+
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mariadb://127.0.0.1:3306/your_schema?serverTimezone=Asia/Shanghai
+    username: username
+    password: password
+    driver-class-name: org.mariadb.jdbc.Driver
